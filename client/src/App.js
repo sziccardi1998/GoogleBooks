@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // will need to import components and pages here
 import Home from "./pages/Home";
 import Detail from "./pages/Detail";
-import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
 import Saved from "./pages/Saved";
 
@@ -25,9 +24,6 @@ function App() {
         </Route>
         <Route exact path="/books/:id">
           <Detail />
-        </Route>
-        <Route>
-          <NoMatch />
         </Route>
       </Switch>
     </div>
