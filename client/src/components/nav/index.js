@@ -9,7 +9,7 @@ function Navigation() {
         Google Book Sorter
       </Navbar.Brand>
       <Nav className="mr-auto">
-        <Nav.Link href="/saved">Saved</Nav.Link>
+        <Nav.Link href="/saved" style="#800080">Saved</Nav.Link>
       </Nav>
       <Form inline>
         <FormControl
