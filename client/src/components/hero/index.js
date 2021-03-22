@@ -11,10 +11,7 @@ function Hero(props) {
     >
       <h1
         style={{
-          display: "inline",
-          padding: "0px 10px 0px 10px",
-          border: "3px dashed #07575B",
-          borderRadius: "10px",
+          color: "#800080"
         }}
       >
         {props.title}

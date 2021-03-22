@@ -5,11 +5,11 @@ function Navigation() {
   const [query, setQuery] = useState("");
   return (
     <Navbar variant="dark">
-      <Navbar.Brand href="/home">
+      <Navbar.Brand href="/home" style= {{color: "#800080" }}>
         Google Book Sorter
       </Navbar.Brand>
       <Nav className="mr-auto">
-        <Nav.Link href="/saved" style="#800080">Saved</Nav.Link>
+        <Nav.Link href="/saved" style= {{color: "#800080" }}>Saved</Nav.Link>
       </Nav>
       <Form inline>
         <FormControl
@@ -22,6 +22,7 @@ function Navigation() {
           href="/"
           onClick={() => localStorage.setItem("searchQuery", query)}
           variant="outline-info"
+          style= {{color: "#800080" }}
         >
           Search
         </Button>
