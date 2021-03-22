@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Image, Card, Button } from "react-bootstrap";
-import API from "../../utils/API";
+import API from "../../utils/api";
 
 function BookCard(props) {
   const [saveStatus, setSaveStatus] = useState("Save Book");

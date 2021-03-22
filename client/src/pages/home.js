@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import API from "../utils/API";
-import Hero from "../components/Hero";
-import BookCard from "../components/BookCard";
+import API from "../utils/api";
+import Hero from "../components/hero";
+import BookCard from "../components/bookCard";
+import NoResults from "../components/noResults"
 
 function Home() {
   const [books, setBooks] = useState({});
